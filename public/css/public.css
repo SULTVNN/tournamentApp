@@ -1,0 +1,321 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+body{
+    height: 100vh;
+    background-color: #282850;
+}
+.SignUp{
+    background-color: #282850;
+    height: 100vh;
+    display: flex;
+}
+.SignUpForm{
+    width: 100%;
+    background-image: linear-gradient(to left,#282850,#ABABFF 99%);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding:10px 10px 1px 10px ;
+}
+.SignUp-inputs {
+    width: 50%;
+}
+
+.welcome-message h1{
+    font-size: 50px;
+    font-weight: 900;
+    color: white;
+}
+.SignUpForm img {
+    width: 30%;
+    margin: auto;
+}
+.imageSign{
+    color: white;
+    width: 100%;
+    background-image: url("../usa_today_195033351.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.imageSign h4{
+    position: absolute;
+    top: 90%;
+    left: 90%;
+    text-align: center;
+}
+input{
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #ffffff;
+    color: white;
+    margin: 10px;
+
+}
+.SignUp-inputs{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.SignUp-inputs .pass{
+    display: flex;
+    flex-direction: column;
+}
+input::placeholder{
+    color: rgb(232, 232, 232);
+}
+input:focus{
+    outline: none;
+    color: white;
+}
+.btn-submit-signUp{
+    width: 100px;
+    margin: auto;
+    padding: 5px 20px;
+    background-image: linear-gradient(to right,#282850,#ABABFF 99%);
+
+    border-radius: 10px;
+    border: 0px solid #ffffff;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.SignUp-inputs .btn-submit-signUp:hover{
+    background-color: #ABABFF;
+}
+.do-you{
+    color: white;
+    text-decoration: none;
+}
+.do-you a{
+    color: white;
+    text-decoration: none;
+}
+.error{
+    color: rgb(255, 167, 167);
+    display: flex;
+    margin-left: 10px;
+    font-weight: 600;
+}
+@media only screen and (max-width: 1260px){
+    .imageSign{
+        display: none;
+    }
+}
+.welcome{
+    height: 100%;
+    color: white;
+    width: 100%;
+    background-image: url("../Frame1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.tt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    transition: 0.5s;
+}
+.tt:hover{
+    color: #ABABFF;
+}
+.home-welcome{
+    width: 50%;
+    height: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.home-welcome-hello{
+    text-align: center;
+    font-size: 6vw;
+    font-weight:900 ;
+}
+.home-welcome-Clash{
+    text-align: center;
+    font-size: 1vw;
+    width: 80%;
+}
+
+@media only screen and (max-width: 991px){
+    .navbar-collapse{
+        position: fixed;
+        top: 56px; /* Adjust this value according to your navbar height */
+        bottom: 0;
+        left: 0;
+        z-index: 1000;
+        margin-left: 10px;
+        height: fit-content;
+    }
+}
+.tournment-welcome{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.tournment-wel{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.tournament{
+    background-color: #282850;
+    height: 100%;
+}
+
+.cards{
+    margin: 10px;
+    background-color: #6363C7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border-radius:15px ;
+}
+.cards-image{
+    width: 400px;
+    border-radius:15px ;
+}
+.cards-body{
+    margin-left: 20px;
+}
+.cards-title{
+    color: white;
+    font-size: 20px;
+}
+.cards-text{
+    color: #D0D0D0;
+}
+.event-title{
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+.event-text{
+    color: #242424;
+}
+.cards-link{
+    text-decoration: none;
+    color: white;
+    padding: 5px 20px;
+    border-radius: 10px;
+    background-color: #282850;
+    transition: 0.5s;
+}
+.cards-link:hover{
+    text-decoration: none;
+    color: #ffffff;
+    padding: 5px 20px;
+    border-radius: 10px;
+    background-color:transparent;
+}
+.cards-linkk{
+    text-decoration: none;
+    color: white;
+    padding: 5px 20px;
+    border-radius: 10px;
+    background-color: #282850;
+    transition: 0.5s;
+}
+.cards-linkk:hover{
+    text-decoration: none;
+    color: #ffffff;
+    padding: 5px 20px;
+    border-radius: 10px;
+    background-color:#393970;
+}
+.cards-details{
+    margin-right: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.prograss{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.pp{
+    width: 100%;
+}
+.number-users{
+    width: 100%;
+}
+.number-bar{
+    background-color: #ffffff;
+    width: 100%;
+    height: 10px;
+    border-radius: 10px;
+}
+.number-para{
+    font-size: 15px;
+    margin-bottom: 3px;
+    margin-left: 5px;
+    color: white;
+}
+.number-per{
+
+    background-color: #282850;
+    height: 100%;
+    border-radius: 10px;
+}
+@media only screen and (max-width: 1174px){
+    .tournment-welcome{
+        width: 90%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
+@media only screen and (max-width: 913px){
+    .tournment-welcome{
+        width: 100%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
+@media only screen and (max-width: 727px){
+    .tournment-welcome{
+        width: 90%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .cards-image{
+        width: 100%;
+        border-radius:15px ;
+    }
+    .cards{
+        margin: 10px;
+        background-color: #6363C7;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        border-radius:15px ;
+        padding-bottom: 10px;
+    }
+}
