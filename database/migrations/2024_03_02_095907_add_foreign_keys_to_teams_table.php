@@ -14,11 +14,11 @@ return new class extends Migration
     public function up()
     {
         Schema::table('teams', function (Blueprint $table) {
-            $table->foreign(['member1'], 'member1')->references(['username'])->on('users')->onUpdate('CASCADE')->onDelete('CASCADE');
-            $table->foreign(['member3'], 'member3')->references(['username'])->on('users')->onUpdate('CASCADE')->onDelete('CASCADE');
             $table->foreign(['team-leader'], 'team-leader')->references(['username'])->on('users')->onUpdate('CASCADE')->onDelete('CASCADE');
-            $table->foreign(['member2'], 'member2')->references(['username'])->on('users')->onUpdate('CASCADE')->onDelete('CASCADE');
-            $table->foreign(['member4'], 'member4')->references(['username'])->on('users')->onUpdate('CASCADE')->onDelete('CASCADE');
+            $table->foreign(['member1'], 'member1')->references(['username'])->on('users')->onUpdate('CASCADE')->onDelete('SET NULL');
+            $table->foreign(['member3'], 'member3')->references(['username'])->on('users')->onUpdate('CASCADE')->onDelete('SET NULL');
+            $table->foreign(['member2'], 'member2')->references(['username'])->on('users')->onUpdate('CASCADE')->onDelete('SET NULL');
+            $table->foreign(['member4'], 'member4')->references(['username'])->on('users')->onUpdate('CASCADE')->onDelete('SET NULL');
         });
     }
 

@@ -60,7 +60,7 @@
                                     @endforeach
                                 </div>
                                 <div class="modal-footer">
-                                    <a href="#" class="cards-linkk" type="button">join</a>
+                                    <a href="/teamjoine/{{$tournament['id']}}" class="cards-linkk" type="button">join</a>
                                 </div>
                             </div>
                         </div>

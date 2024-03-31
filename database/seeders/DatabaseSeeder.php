@@ -6,6 +6,7 @@ namespace Database\Seeders;
 
 use App\Models\Event;
 use App\Models\Tournament;
+use App\Models\User;
 use Illuminate\Database\Seeder;
 
 class DatabaseSeeder extends Seeder
@@ -23,13 +24,13 @@ class DatabaseSeeder extends Seeder
         // ]);
 
         //"first tournment and events"
-/*
+
         Tournament::create([
         'tournament-name'=>"Academic Quiz Bowl Tournaments",
         'tournament-type'=>"team",
         'image'=>"corporate-football-tournament-winter-09.jpg",
         'expired-date'=>now("Africa/cairo")->addMonth(),
-        'description'=>"These tournaments feature teams of students competing against each other in a quiz format, answering questions on a wide range of academic subjects such as history, literature, science, and current events. Examples include the National Academic Quiz Tournaments (NAQT) Intercollegiate Championship Tournament (ICT) and the College Bowl.",
+        'description'=>"These tournaments feature teams of students competing against each other in a quiz format, answering questions on a wide range of academic subjects such as history, literature, science, and current events. ",
         ]);
         Event::create([
             'event-name'=>"Preliminary Rounds",
@@ -66,6 +67,13 @@ class DatabaseSeeder extends Seeder
             'points'=>5000,
             'tournament-id'=>1,
         ]);
-*/
+
+// create admine
+        User::create([
+            'username'=>"admin",
+            'email'=>"ss@gmail.com",
+            'privileges'=>"admin",
+            'password'=>"123456"
+        ]);
     }
 }

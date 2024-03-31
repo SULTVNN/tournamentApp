@@ -18,6 +18,7 @@ return new class extends Migration
             $table->integer('event-id')->index('event');
             $table->integer('points');
             $table->integer('id', true);
+            $table->timestamps();
         });
     }
 

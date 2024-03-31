@@ -6,6 +6,16 @@
 body{
     height: 100vh;
     background-color: #282850;
+    overflow-x: hidden;
+}
+
+.dropdown-item{
+    display: flex;
+    align-items: center;
+}
+.dropdown-item span{
+    margin-right: 10px;
+    width: 20px;
 }
 .SignUp{
     background-color: #282850;
@@ -318,4 +328,49 @@ input:focus{
         border-radius:15px ;
         padding-bottom: 10px;
     }
+}
+
+.team-clash{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 90%;
+}
+.team-clash img{
+    width: 80%;
+}
+.team-clash h1{
+    font-size: 3vw;
+}
+.color-tem{
+    background-color: #6363C7;
+    color: white;
+    transition: 0.5s;
+    margin-top: 5px;
+}
+.color-tem:hover{
+    background-color: #ffffff;
+    color: #6363C7;
+}
+
+.team-data{
+    width: 80%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+}
+.team-data span{
+    color: #ABABFF;
+}
+
+.team-leader{
+    margin-top: 50px;
+    display: flex;
+    font-size: 25px;
+}
+.ppp{
+    margin-left: 50px;
 }

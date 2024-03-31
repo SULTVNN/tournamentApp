@@ -18,6 +18,7 @@ return new class extends Migration
             $table->integer('user-id')->index('userid');
             $table->integer('event-id')->index('eventid');
             $table->integer('points');
+            $table->timestamps();
         });
     }
 

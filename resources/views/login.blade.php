@@ -1,7 +1,7 @@
 @extends('layouts.header')
 @section('header')
     <div class="SignUp">
-        <form class="SignUpForm" action="{{route("store")}}" method="POST">
+        <form class="SignUpForm" action="{{route("auth")}}" method="POST">
             @csrf
             <div class="SignUp-inputs">
                 <center><a href="{{route("index")}}"><img src="{{asset("logo.png")}}" alt="" class="logo"></a></center>
@@ -22,7 +22,7 @@
                     @enderror
                 </div>
             </div>
-            <div class="SignUp-inputs">
+            <div class="SignUp-inputs do-you">
                 <input type="submit" class="btn-submit-signUp" value="Login">
             </div>
             <div class="do-you">

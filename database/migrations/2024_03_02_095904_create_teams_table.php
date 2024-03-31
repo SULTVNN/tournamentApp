@@ -16,11 +16,12 @@ return new class extends Migration
         Schema::create('teams', function (Blueprint $table) {
             $table->integer('id', true);
             $table->string('team-leader')->index('team-leader');
-            $table->string('member1')->index('member1');
-            $table->string('member2')->index('member2');
-            $table->string('member3')->index('member3');
-            $table->string('member4')->index('member4');
+            $table->string('member1')->nullable()->index('member1');
+            $table->string('member2')->nullable()->index('member2');
+            $table->string('member3')->nullable()->index('member3');
+            $table->string('member4')->nullable()->index('member4');
             $table->string('team-name')->unique('team-name');
+            $table->timestamps();
         });
     }
 
