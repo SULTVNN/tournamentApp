@@ -18,7 +18,7 @@ The Tournament Management System is a web application designed to facilitate the
 
 ## Installation
 1. Clone the repository to your local machine:
-git clone https://github.com/SULTVNN/tournament-management-system.git
+git clone [https://github.com/SULTVNN/tournament-management-system.git](https://github.com/SULTVNN/tournamentApp)
 
 
 
