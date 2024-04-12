@@ -54,4 +54,4 @@ Contributions are welcome! If you encounter any bugs or have suggestions for imp
 
 
 ## Contact
-For inquiries or support, contact [Your Name](mmuhammedssultan@gmail.com).
+For inquiries or support, contact [sultan](mmuhammedssultan@gmail.com).
